@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./color_fliper.css">
+        <title>OWN CHOICE</title>
+    </head>
+    <body id="body">
+        <div class="wrapper">
+            <label for="color">DEAR CLICK ME</label>
+            <input type="color" ID="color" onchange="changecolor()">
+        </div>
+        <script>
+            function changecolor(){
+                let color=document.getElementById("color").value;
+                document.getElementById("body").style.background=color;
+            }
+        </script>
+    </body>
+</html>
